@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Point Table</title>
+    <link rel="stylesheet" href="css/point_table.css">
+    <link rel="icon" href="images/logo-iedc.jpg" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--fontawesome for scroll-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <a id="button">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- NAVBAR -->
+
+    <div class="homepageiedc">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid ">
+                <a class="navbar-brand " href="index.html"><img src="images/logo-iedc.jpg" alt="" width="90px"></a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse " id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: #ffffff" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: #ffffff" href="execom.html">Execom</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: #ffffff" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: #ffffff" href="point_table.html">Point Table</a>
+                        </li>
+
+                        <button id="connectBtn" class="btn my-2 my-sm-0" type="submit"
+                            onclick="window.location='index.html#Contact';">Contact Us</button>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- navbar over -->
+
+        <section class="events">
+            <div class="header">
+                <h1>Point Table</h1>
+            </div>
+
+
+            <!-- Point Table Section  -->
+
+            <div class="chart-wrapper">
+                <div id="piechart_3d"></div>
+            </div>
+
+
+            <div id="point-content">
+
+
+                <!-- BCA Department -->
+                <div class="point-card">
+                    <div class="circle-card">
+                        <div class="percent" style="--clr:#04fc43">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="points">
+                                <h2 id="bca_point">bca_point</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>BCA</h3>
+                </div>
+
+
+                <!-- BSC Electronics Department -->
+                <div class="point-card">
+                    <div class="circle-card">
+                        <div class="percent" style="--clr:#0467fc">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="points">
+                                <h2 id="electronics_point">electronics_point</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>BSC Electronics</h3>
+                </div>
+
+
+                <!-- BA Multimedia Department -->
+                <div class="point-card">
+                    <div class="circle-card">
+                        <div class="percent" style="--clr:#fc0404">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="points">
+                                <h2 id="multimedia_point">multimedia_point</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>BA Multimedia</h3>
+                </div>
+
+
+                <!-- BSC Psychology Department -->
+                <div class="point-card">
+                    <div class="circle-card">
+                        <div class="percent" style="--clr:#fc04a1">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="points">
+                                <h2 id="psychology_point">psychology_point</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>BSC Psychology</h3>
+                </div>
+
+
+                <!-- BA Economics Department -->
+                <div class="point-card">
+                    <div class="circle-card">
+                        <div class="percent" style="--clr:#ae00ff">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="points">
+                                <h2 id="economics_point">economics_point</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>BA Economics</h3>
+                </div>
+
+
+                <!-- BCOM CA Department -->
+                <div class="point-card">
+                    <div class="circle-card">
+                        <div class="percent" style="--clr:#fcd304">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="points">
+                                <h2 id="bcom_ca_point">bcom_ca_point</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>BCOM CA</h3>
+                </div>
+
+
+                <!-- BCOM TT Department -->
+                <div class="point-card">
+                    <div class="circle-card">
+                        <div class="percent" style="--clr:#0bfc83">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="points">
+                                <h2 id="bcom_tt_point">bcom_tt_point</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>BCOM TT</h3>
+                </div>
+
+
+                <!-- BA English Department -->
+                <div class="point-card">
+                    <div class="circle-card">
+                        <div class="percent" style="--clr:#04e7fc">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="points">
+                                <h2 id="ba_english_point">ba_english_point</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>BA English</h3>
+                </div>
+
+
+                <!-- BBA Department -->
+                <div class="point-card">
+                    <div class="circle-card">
+                        <div class="percent" style="--clr:#ffa034">
+                            <div class="dot"></div>
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="points">
+                                <h2 id="bba_point">bba_point</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>BBA</h3>
+                </div>
+
+
+           </div>
+          
+        </section>
+
+        <!-- Point Table Ending  -->
+
+
+
+        <!--footer start-->
+        <footer>
+            <div class="footerlogo">
+                <img id="fotrlogo" src="images/logo-iedc.jpg" alt="" width="100px">
+                <div class="iconcontainer">
+                    <a href="https://www.facebook.com/profile.php?id=100088136628687&mibextid=ZbWKwL"><img
+                            id="icom-small" src="images/svg/fb.svg" alt=""></a>
+                    <a href="https://instagram.com/iedc.mcas?igshid=ZDdkNTZiNTM="><img id="icom" src="images/svg/ig.svg"
+                            alt=""></a>
+                    <a href="https://www.linkedin.com/company/iedc-mcas/"><img id="icom" src="images/svg/in.svg"
+                            alt=""></a>
+                    <a href="https://youtube.com/@iedcmcas"><img id="icom-small" src="images/svg/yt.svg"
+                            alt=""></a>
+
+                </div>
+            </div>
+            <hr>
+            <div class="footer-content">
+                <p>Malabar College of Advanced Studies<br>
+                    Vengara, P.O O.K.Muri, Malappuram-676 519, Kerala, India.</p>
+                <p>
+                    <center>Copyright &#169; 2023 &#183; IEDC MCAS</center>
+                </p>
+            </div>
+        </footer>
+
+
+        <!--footer over-->
+
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+
+        <!--scroll-->
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript">
+
+            var btn = $('#button');
+
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 300) {
+                    btn.addClass('show');
+                } else {
+                    btn.removeClass('show');
+                }
+            });
+
+            btn.on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({ scrollTop: 0 }, '300');
+            });
+
+        </script>
+
+
+
+
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+            google.charts.load("current", { packages: ["corechart"] });
+            google.charts.setOnLoadCallback(drawChart);
+            function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                    ['Department', 'Total Points'],
+                    ['BCA', bca_point],
+                    ['BSC Electronics', electronics_point],
+                    ['BA Multimedia', multimedia_point],
+                    ['BSC Physocology', psychology_point],
+                    ['BA Economics', economics_point],
+                    ['BCOM CA', bcom_ca_point],
+                    ['BCOM TT', bcom_tt_point],
+                    ['BA English', ba_english_point],
+                    ['BBA', bba_point],
+                ]);
+
+                var options = {
+                    backgroundColor: 'transparent',
+                    fontSize: 16,
+                    is3D: true,
+                    legend: { textStyle: { color: 'white', fontSize: 14 } },
+
+                };
+
+                var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+                chart.draw(data, options);
+            }
+
+            window.addEventListener('resize', function () {
+                drawChart();
+            })
+        </script>
+
+
+
+        <script src="js/constants.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $(window).on('load', function() {
+                    $('.points').counterUp({
+                        delay: 6,
+                        time: 1000
+                    });
+            
+                    $('.points').addClass('counter');
+                });
+            
+                $('.points').waypoint(
+                    function() {
+                        $(this.element).counterUp({
+                            delay: 6,
+                            time: 1000
+                        });
+            
+                        $(this.element).addClass('counter');
+                    },
+                    {
+                        offset: 'bottom-in-view'
+                    }
+                );
+            });
+            </script>
+            
+
+
+        <script src="js/cards_sorting.js"></script>
+</body>
+
+</html>
