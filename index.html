@@ -188,24 +188,26 @@
       <div class="right-side">
         <div class="topic-text">Send us a message</div>
         <p>"Connect with us today and let your voice be heard - your message matters!"</p>
-        <form action="#">
+        <form target="_blank" action="https://formsubmit.co/iedc@malabarcollegevengara.org" method="POST">
           <div class="input-box">
-            <input type="text" placeholder="Enter your name" />
+            <input type="text" placeholder="Enter your name" name="Name" required />
           </div>
           <div class="input-box">
-            <input type="text" placeholder="Enter your email" />
+            <input type="email" placeholder="Enter your email" name="Email" required />
           </div>
           <div class="input-box">
-            <input type="tel" placeholder="Enter your phone number" />
+            <input type="tel" placeholder="Enter a 10-digit phone number without spaces or special characters" name="Phone" pattern="[0-9]{10}" required />
           </div>
           <div class="input-box message-box">
-            <textarea placeholder="Enter your message"></textarea>
+            <textarea placeholder="Enter your message" name="Message" required></textarea>
           </div>
           <div class="button">
-            <input type="button" value="Send Now" />
+            <input type="submit" value="Send Now" />
           </div>
+          <input type="hidden" name="_template" value="table">
         </form>
       </div>
+      
     </div>
   </div>
   <!-- section four over -->
@@ -273,7 +275,6 @@
   <!--ionicons-->
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
 
 </body>
 

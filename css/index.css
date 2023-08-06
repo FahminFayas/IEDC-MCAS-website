@@ -391,7 +391,7 @@ span {
     display: inline-block;
     margin-top: 12px;
   }
-  .right-side .button input[type="button"] {
+  .right-side .button input[type="submit"] {
     font-size: 18px;
     outline: none;
     border: none;
@@ -402,7 +402,7 @@ span {
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .button input[type="button"]:hover {
+  .button input[type="submit"]:hover {
     background-color: #333;
     color: #fff;
   }
