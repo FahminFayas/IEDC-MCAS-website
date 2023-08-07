@@ -2,18 +2,18 @@
 
 //constants
 
-var bca_point = 1130;
-var electronics_point = 550;
-var multimedia_point = 855;
-var psychology_point = 250;
+var bca_point = 3268;
+var electronics_point = 630;
+var multimedia_point = 1015;
+var psychology_point = 290;
 var economics_point = 150;
-var bcom_ca_point = 500;
-var bcom_tt_point = 200;
-var ba_english_point = 600;
-var bba_point = 850;
+var bcom_ca_point = 580;
+var bcom_tt_point = 240;
+var ba_english_point = 1050;
+var bba_point = 890;
 
 
-var total_points = 5085;
+var total_points = 8113;
 
 
 // Assigning values
