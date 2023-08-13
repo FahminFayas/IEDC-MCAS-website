@@ -13,7 +13,7 @@ var ba_english_point = 1050;
 var bba_point = 890;
 
 
-var total_points = 8113;
+var total_points = bca_point+electronics_point+multimedia_point+psychology_point+economics_point+bcom_ca_point+bcom_tt_point+ba_english_point+bba_point;
 
 
 // Assigning values
