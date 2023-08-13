@@ -2,7 +2,7 @@
 
 //constants
 
-var bca_point = 3268;
+var bca_point = 6368;
 var electronics_point = 630;
 var multimedia_point = 1015;
 var psychology_point = 290;
