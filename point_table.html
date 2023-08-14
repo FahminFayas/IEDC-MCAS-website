@@ -79,7 +79,8 @@
 
 
                 <!-- BCA Department -->
-                <div class="point-card">
+
+                <div class="point-card clickable-card" data-href="https://airtable.com/app3wGfAdoufLY45s/shrx2zcOA0owBiOHd">
                     <div class="circle-card">
                         <div class="percent" style="--clr:#04fc43">
                             <div class="dot"></div>
@@ -96,8 +97,9 @@
                 </div>
 
 
+
                 <!-- BSC Electronics Department -->
-                <div class="point-card">
+                <div class="point-card clickable-card" data-href="https://airtable.com/app3wGfAdoufLY45s/shrelhRJVSsXaHU6A">
                     <div class="circle-card">
                         <div class="percent" style="--clr:#0467fc">
                             <div class="dot"></div>
@@ -115,7 +117,7 @@
 
 
                 <!-- BA Multimedia Department -->
-                <div class="point-card">
+               <div class="point-card clickable-card" data-href="https://airtable.com/app3wGfAdoufLY45s/shrpXxZmQz1wwNopW">
                     <div class="circle-card">
                         <div class="percent" style="--clr:#fc0404">
                             <div class="dot"></div>
@@ -133,7 +135,7 @@
 
 
                 <!-- BSC Psychology Department -->
-                <div class="point-card">
+                <div class="point-card clickable-card" data-href="https://airtable.com/app3wGfAdoufLY45s/shrZpn6XVPAFm9Jrg">
                     <div class="circle-card">
                         <div class="percent" style="--clr:#fc04a1">
                             <div class="dot"></div>
@@ -151,7 +153,7 @@
 
 
                 <!-- BA Economics Department -->
-                <div class="point-card">
+                <div class="point-card clickable-card" data-href="https://airtable.com/app3wGfAdoufLY45s/shrC8NoM3iRHxVmtb">
                     <div class="circle-card">
                         <div class="percent" style="--clr:#ae00ff">
                             <div class="dot"></div>
@@ -169,7 +171,7 @@
 
 
                 <!-- BCOM CA Department -->
-                <div class="point-card">
+                <div class="point-card clickable-card" data-href="https://airtable.com/app3wGfAdoufLY45s/shrmMqUlTmoaxr0g7">
                     <div class="circle-card">
                         <div class="percent" style="--clr:#fcd304">
                             <div class="dot"></div>
@@ -187,7 +189,7 @@
 
 
                 <!-- BCOM TT Department -->
-                <div class="point-card">
+                <div class="point-card clickable-card" data-href="https://airtable.com/app3wGfAdoufLY45s/shr3cnmgdezPCDHcp">
                     <div class="circle-card">
                         <div class="percent" style="--clr:#0bfc83">
                             <div class="dot"></div>
@@ -205,7 +207,7 @@
 
 
                 <!-- BA English Department -->
-                <div class="point-card">
+                <div class="point-card clickable-card" data-href="https://airtable.com/app3wGfAdoufLY45s/shrPu3Q6sLSmHqL3Z">
                     <div class="circle-card">
                         <div class="percent" style="--clr:#04e7fc">
                             <div class="dot"></div>
@@ -223,7 +225,7 @@
 
 
                 <!-- BBA Department -->
-                <div class="point-card">
+                <div class="point-card clickable-card" data-href="https://airtable.com/app3wGfAdoufLY45s/shrEwfSjDhQ2sOqKX">
                     <div class="circle-card">
                         <div class="percent" style="--clr:#ffa034">
                             <div class="dot"></div>
@@ -240,8 +242,8 @@
                 </div>
 
 
-           </div>
-          
+            </div>
+
         </section>
 
         <!-- Point Table Ending  -->
@@ -259,8 +261,7 @@
                             alt=""></a>
                     <a href="https://www.linkedin.com/company/iedc-mcas/"><img id="icom" src="images/svg/in.svg"
                             alt=""></a>
-                    <a href="https://youtube.com/@iedcmcas"><img id="icom-small" src="images/svg/yt.svg"
-                            alt=""></a>
+                    <a href="https://youtube.com/@iedcmcas"><img id="icom-small" src="images/svg/yt.svg" alt=""></a>
 
                 </div>
             </div>
@@ -343,6 +344,18 @@
                 drawChart();
             })
         </script>
+        <script>
+            // js code for making each point card clickable
+            document.addEventListener('DOMContentLoaded', function () {
+                const clickableCards = document.querySelectorAll('.clickable-card');
+                clickableCards.forEach(function (card) {
+                    card.addEventListener('click', function () {
+                        const url = card.getAttribute('data-href');
+                        window.location.href = url;
+                    });
+                });
+            });
+        </script>
 
 
 
@@ -354,22 +367,22 @@
 
         <script>
             $(document).ready(function () {
-                $(window).on('load', function() {
+                $(window).on('load', function () {
                     $('.points').counterUp({
                         delay: 6,
                         time: 1000
                     });
-            
+
                     $('.points').addClass('counter');
                 });
-            
+
                 $('.points').waypoint(
-                    function() {
+                    function () {
                         $(this.element).counterUp({
                             delay: 6,
                             time: 1000
                         });
-            
+
                         $(this.element).addClass('counter');
                     },
                     {
@@ -377,8 +390,8 @@
                     }
                 );
             });
-            </script>
-            
+        </script>
+
 
 
         <script src="js/cards_sorting.js"></script>
