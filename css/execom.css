@@ -1,3 +1,6 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
+
 * {
     padding: 0;
     margin: 0;
@@ -5,6 +8,11 @@
     font-family: 'Space Grotesk', sans-serif;
     text-decoration: none;
 }
+body {
+    justify-content: center;
+    background: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    padding: 0;
+  }
 /*navbar*/
 .sec1{
     height:240px;
@@ -74,11 +82,65 @@ nav {
 span {
     color: #e6bf24;
 }
-.homepageiedc {
-    background: linear-gradient(315deg, #2d3436 0%, #000000 74%);
-}
+
 
 /*navbar-over*/
+/*toggle head start*/
+.execom-selection {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn-group input[type="radio"].btn-check + label.btn-outline-primary,
+.btn-group input[type="radio"].btn-check + label.btn-primary {
+  background-color: #535353;
+  border-color: #000000;
+  color: #fff;
+}
+
+.btn-group input[type="radio"].btn-check:checked + label.btn-outline-primary,
+.btn-group input[type="radio"].btn-check:checked + label.btn-primary {
+  background-color: #fccf2c;
+  border-color: #ffd700;
+  color: #000000;
+}
+
+.btn-group input[type="radio"].btn-check:hover + label.btn-outline-primary,
+.btn-group input[type="radio"].btn-check:hover + label.btn-primary {
+  background-color: #f8d143;
+  border-color: #f8d143;
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .btn-check + .btn-outline-primary,
+  .btn-primary {
+      padding: 5px 10px;
+      font-size: 12px;
+  }
+
+  .btn-group {
+      flex-direction: row;
+      align-items: center;
+  }
+
+  .btn-group .btn {
+      margin: 5px;
+  }
+
+  .btn-group label.btn-outline-primary,
+  .btn-group label.btn-primary {
+      padding: 5px 10px;
+      font-size: 12px;
+  }
+}
+/*toggle head over*/
 body{
     justify-content: center;
 }
@@ -87,7 +149,6 @@ body{
     margin-top: 50px;
     margin-bottom: 10px;
 }
-
 
 .execom {
     position: relative;
@@ -129,7 +190,6 @@ body{
     height:auto;
     aspect-ratio: 4/3.5;
     object-fit: contain;
-   
     margin-bottom: 15px;
 }
 
@@ -149,7 +209,7 @@ body{
 }
 .subheading {
     font-size: 2rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 0;
     color: #ffffff;
     text-align: center;
@@ -220,11 +280,768 @@ body{
         font-size: 3.2rem;
     }
 }
+/*Teams start*/
+/*=============== CARD ===============*/
+/*=============== Team 1 - WELL ===============*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:auto;
+}
+.container .subheading {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  color: #ffffff;
+  text-align: center;
+}
+.card__container {
+  padding-block: 5rem;
+}
+
+.card__content {
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-right: 4rem;
+}
+
+.card__article {
+  width: 225px;
+  margin: 4px;
+  margin-bottom: 1px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  border: 2px solid #212121;
+  transition: all .38s ease;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.card__article:hover {
+  transform: translateY(-1px);
+  box-shadow: rgba(255, 255, 255, 0.07) 0px 1px 2px, rgba(255, 255, 255, 0.07) 0px 2px 4px, rgba(255, 255, 255, 0.07) 0px 4px 8px, rgba(255, 255, 255, 0.07) 0px 8px 16px, rgba(255, 255, 255, 0.07) 0px 16px 32px, rgba(255, 255, 255, 0.07) 0px 32px 64px;
+  cursor: pointer;
+}
+
+.card__article img {
+  width: 100%;
+  height:auto;
+  aspect-ratio: 4/3.5;
+  object-fit: contain;
+  margin-bottom: -.75rem;
+}
+
+.card__data {
+  background-color: var(--container-color);
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.card__name {
+  font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.card__container h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #b7b4bb;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.card__container h4 {
+  font-size: 14px;
+  font-weight: 800;
+  color: #fece8b;
+  margin-bottom: 17px;
+  letter-spacing: 2px;
+}
+/* Swiper class */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  content: "";
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+  display: none;
+}
+
+.swiper-button-prev {
+  left: 0;
+  color: #e6bf24;
+}
+
+.swiper-button-next {
+  right: 0;
+  color:#e6bf24
+}
+
+.swiper-pagination-bullet {
+  background-color: #f8d143;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #f8d143;
+}
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .card__data {
+    padding: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .card__container {
+    max-width: 1120px;
+  }
+
+  .swiper-button-prev {
+    left: -1rem;
+  }
+  .swiper-button-next {
+    right: -1rem;
+  }
+}
+/*team section1 over*/
+/*=============== Team 2- Quality Operations ===============*/
+/*team section2 start*/
+.card__content2 {
+  position: relative;
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-right: 4rem;
+}
+/* Swiper class */
+.swiper-button-prev2:after,
+.swiper-button-next2:after {
+  content: "";
+}
+
+.swiper-button-prev2,
+.swiper-button-next2 {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+  display: none;
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev2 {
+  left: 0;
+  color: #e6bf24;
+}
+
+.swiper-button-next2 {
+  right: 0;
+  color:#e6bf24
+}
+.swiper-pagination2-bullet {
+  background-color: #f8d143;
+}
+
+.swiper-pagination2-bullet-active {
+  background-color: #f8d143;
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content2 {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next2,
+  .swiper-button-prev2 {
+    display: inline-block;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .swiper-button-prev2 {
+    left: -1rem;
+  }
+  .swiper-button-next2 {
+    right: -1rem;
+  }
+}
+/*=============== Team 3- Technical ===============*/
+/*team section3 start*/
+.card__content3 {
+  position: relative;
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-right: 4rem;
+}
+/* Swiper class */
+.swiper-button-prev3:after,
+.swiper-button-next3:after {
+  content: "";
+}
+
+.swiper-button-prev3,
+.swiper-button-next3 {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+  display: none;
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev3 {
+  left: 0;
+  color: #e6bf24;
+}
+
+.swiper-button-next3 {
+  right: 0;
+  color:#e6bf24
+}
+.swiper-pagination3-bullet {
+  background-color: #f8d143;
+}
+
+.swiper-pagination3-bullet-active {
+  background-color: #f8d143;
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content3 {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next3,
+  .swiper-button-prev3 {
+    display: inline-block;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .swiper-button-prev3 {
+    left: -1rem;
+  }
+  .swiper-button-next3 {
+    right: -1rem;
+  }
+}
+
+/*=============== Team 4- Branding and Marketing ===============*/
+/*team section4 start*/
+.card__content4 {
+  position: relative;
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-right: 4rem;
+}
+/* Swiper class */
+.swiper-button-prev4:after,
+.swiper-button-next4:after {
+  content: "";
+}
+
+.swiper-button-prev4,
+.swiper-button-next4 {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+  display: none;
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev4 {
+  left: 0;
+  color: #e6bf24;
+}
+
+.swiper-button-next4 {
+  right: 0;
+  color:#e6bf24
+}
+.swiper-pagination4-bullet {
+  background-color: #f8d143;
+}
+
+.swiper-pagination4-bullet-active {
+  background-color: #f8d143;
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content4 {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next4,
+  .swiper-button-prev4 {
+    display: inline-block;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .swiper-button-prev4 {
+    left: -1rem;
+  }
+  .swiper-button-next4 {
+    right: -1rem;
+  }
+}
+
+/*=============== Team 5- Creative ===============*/
+/*team section5 start*/
+.card__content5 {
+  position: relative;
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-right: 4rem;
+}
+/* Swiper class */
+.swiper-button-prev5:after,
+.swiper-button-next5:after {
+  content: "";
+}
+
+.swiper-button-prev5,
+.swiper-button-next5 {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+  display: none;
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev5 {
+  left: 0;
+  color: #e6bf24;
+}
+
+.swiper-button-next5 {
+  right: 0;
+  color:#e6bf24
+}
+.swiper-pagination5-bullet {
+  background-color: #f8d143;
+}
+
+.swiper-pagination5-bullet-active {
+  background-color: #f8d143;
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content5 {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next5,
+  .swiper-button-prev5 {
+    display: inline-block;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .swiper-button-prev5 {
+    left: -1rem;
+  }
+  .swiper-button-next5 {
+    right: -1rem;
+  }
+}
+
+/*=============== Team 6- community ===============*/
+/*team section6 start*/
+.card__content6 {
+  position: relative;
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-right: 4rem;
+}
+/* Swiper class */
+.swiper-button-prev6:after,
+.swiper-button-next6:after {
+  content: "";
+}
+
+.swiper-button-prev6,
+.swiper-button-next6 {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+  display: none;
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev6 {
+  left: 0;
+  color: #e6bf24;
+}
+
+.swiper-button-next6 {
+  right: 0;
+  color:#e6bf24
+}
+.swiper-pagination6-bullet {
+  background-color: #f8d143;
+}
+
+.swiper-pagination6-bullet-active {
+  background-color: #f8d143;
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content6 {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next6,
+  .swiper-button-prev6 {
+    display: inline-block;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .swiper-button-prev6 {
+    left: -1rem;
+  }
+  .swiper-button-next6 {
+    right: -1rem;
+  }
+}
+
+/*=============== Team 7- Finance ===============*/
+/*team section7 start*/
+.card__content7 {
+  position: relative;
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-right: 4rem;
+}
+/* Swiper class */
+.swiper-button-prev7:after,
+.swiper-button-next7:after {
+  content: "";
+}
+
+.swiper-button-prev7,
+.swiper-button-next7 {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+  display: none;
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev7 {
+  left: 0;
+  color: #e6bf24;
+}
+
+.swiper-button-next7 {
+  right: 0;
+  color:#e6bf24
+}
+.swiper-pagination7-bullet {
+  background-color: #f8d143;
+}
+
+.swiper-pagination7-bullet-active {
+  background-color: #f8d143;
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content7 {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next7,
+  .swiper-button-prev7 {
+    display: inline-block;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .swiper-button-prev7 {
+    left: -1rem;
+  }
+  .swiper-button-next7 {
+    right: -1rem;
+  }
+}
+
+/*=============== Team 8- IPR & Research ===============*/
+/*team section8 start*/
+.card__content8 {
+  position: relative;
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-right: 4rem;
+}
+/* Swiper class */
+.swiper-button-prev8:after,
+.swiper-button-next8:after {
+  content: "";
+}
+
+.swiper-button-prev8,
+.swiper-button-next8 {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+  display: none;
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev8 {
+  left: 0;
+  color: #e6bf24;
+}
+
+.swiper-button-next8 {
+  right: 0;
+  color:#e6bf24
+}
+.swiper-pagination8-bullet {
+  background-color: #f8d143;
+}
+
+.swiper-pagination8-bullet-active {
+  background-color: #f8d143;
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content8 {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next8,
+  .swiper-button-prev8 {
+    display: inline-block;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .swiper-button-prev8 {
+    left: -1rem;
+  }
+  .swiper-button-next8 {
+    right: -1rem;
+  }
+}
+
+/*=============== Team 9- Program Organization ===============*/
+/*team section9 start*/
+.card__content9 {
+  position: relative;
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-right: 4rem;
+}
+/* Swiper class */
+.swiper-button-9:after,
+.swiper-button-next9:after {
+  content: "";
+}
+
+.swiper-button-prev9,
+.swiper-button-next9 {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+  display: none;
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev9 {
+  left: 0;
+  color: #e6bf24;
+}
+
+.swiper-button-next9 {
+  right: 0;
+  color:#e6bf24
+}
+.swiper-pagination9-bullet {
+  background-color: #f8d143;
+}
+
+.swiper-pagination9-bullet-active {
+  background-color: #f8d143;
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content9 {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next9,
+  .swiper-button-prev9 {
+    display: inline-block;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .swiper-button-prev9 {
+    left: -1rem;
+  }
+  .swiper-button-next9 {
+    right: -1rem;
+  }
+}
+
+/*=============== Team 10- Department ===============*/
+/*team section10 start*/
+.card__content10 {
+  position: relative;
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-right: 4rem;
+}
+/* Swiper class */
+.swiper-button-10:after,
+.swiper-button-next10:after {
+  content: "";
+}
+
+.swiper-button-prev10,
+.swiper-button-next10 {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+  display: none;
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev10 {
+  left: 0;
+  color: #e6bf24;
+}
+
+.swiper-button-next10 {
+  right: 0;
+  color:#e6bf24
+}
+.swiper-pagination10-bullet {
+  background-color: #f8d143;
+}
+
+.swiper-pagination10-bullet-active {
+  background-color: #f8d143;
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content10 {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next10,
+  .swiper-button-prev10 {
+    display: inline-block;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .swiper-button-prev10 {
+    left: -1rem;
+  }
+  .swiper-button-next10 {
+    right: -1rem;
+  }
+}
+
 /* Footer styling start*/
 /* Footer */
 
 footer {
-    background-color: #0000009a;
+    background-color: #000000;
     color: #ffffff;
     padding: 20px;
     text-align: center;
