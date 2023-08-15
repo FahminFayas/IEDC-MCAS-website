@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="css/swiper bundles/swiper-bundle.min10.css">
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="css/execom.css">
-    
+
 </head>
 
 <body>
@@ -43,87 +43,198 @@
 
     <!-- NAVBAR -->
 
-    
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid ">
-                <a class="navbar-brand " href="index.html"><img src="images/logo-iedc.jpg" alt="" width="90px"></a>
-                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse flex-row-reverse " id="navbarNav">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #ffffff" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #ffffff" href="execom.html">Execom</a>
-                        </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #ffffff" href="events.html">Events</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #ffffff" href="point_table.html">Point Table</a>
-                        </li>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid ">
+            <a class="navbar-brand " href="index.html"><img src="images/logo-iedc.jpg" alt="" width="90px"></a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-row-reverse " id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #ffffff" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #ffffff" href="execom.html">Execom</a>
+                    </li>
 
-                        <button id="connectBtn" class="btn my-2 my-sm-0" type="submit" onclick="window.location='index.html#Contact';">Contact Us</button>
-                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #ffffff" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #ffffff" href="point_table.html">Point Table</a>
+                    </li>
+
+                    <button id="connectBtn" class="btn my-2 my-sm-0" type="submit"
+                        onclick="window.location='index.html#Contact';">Contact Us</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar over -->
+    <!--toggle head-->
+    <div class="execom-selection">
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btnradio1" onclick="showExecomSection()">Execom
+                Committee</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio2" onclick="showTeamsSection()">Teams</label>
+        </div>
+    </div>
+    <!--toggle head over-->
+    <section id="execomSection" class="execom">
+        <div class="header">
+            <h1>EXECOM 2023-24</h1>
+        </div>
+
+        <!-- IEDC Staffs Section-->
+        <div class="execom-section">
+            <h2 class="subheading">IEDC Staffs</h2> <!-- Add the subheading here -->
+            <div class="team-content">
+                <div class="execom-card">
+                    <img src="images/execom/Nawal Miss.jpeg" alt="">
+                    <h3>Nawal Mohammed</h3>
+                    <h5>Assistant Professor</h5>
+                    <h4>Nodal Officer</h4>
+                    <div class="icons">
+
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                        <a href="https://instagram.com/nawalrisvi?igshid=NTc4MTIwNjQ2YQ=="><i
+                                class="ri-instagram-line"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="execom-card">
+                    <img src="images/execom/Shabeeba Miss.jpeg" alt="">
+                    <h3>Shabeeba</h3>
+                    <h5>Assistant Professor</h5>
+                    <h4>Assistant Nodal Officer</h4>
+                    <div class="icons">
+
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                        <a href="https://instagram.com/shabeebanawab?igshid=NTc4MTIwNjQ2YQ=="><i
+                                class="ri-instagram-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="execom-card">
+                    <img src="images/execom/Ashiq Sir.jpg" alt="">
+                    <h3>Ashiq VM</h3>
+                    <h5>Assistant Professor</h5>
+                    <h4>Faculty Technical Officer</h4>
+                    <div class="icons">
+
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="execom-card">
+                    <img src="images/execom/Nayeem Sir.png" alt="">
+                    <h3>Nayeem P</h3>
+                    <h5>Assistant Professor</h5>
+                    <h4>Faculty Media <br>Officer</h4>
+                    <div class="icons">
+
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                    </div>
                 </div>
             </div>
-        </nav>
-        <!-- navbar over -->
-        <!--toggle head-->
-        <div class="execom-selection">
-            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                <label class="btn btn-outline-primary" for="btnradio1" onclick="showExecomSection()">Execom Committee</label>
-        
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btnradio2" onclick="showTeamsSection()">Teams</label>
-            </div>
-        </div>   
-        <!--toggle head over-->
-        <section id="execomSection" class="execom">
-            <div class="header">
-                <h1>EXECOM 2023-24</h1>
-            </div>
 
-            <!-- IEDC Staffs Section-->
+            <!-- Execom Members Section-->
             <div class="execom-section">
-                <h2 class="subheading">IEDC Staffs</h2> <!-- Add the subheading here -->
+                <h2 class="subheading">Execom Members</h2> <!-- Add the subheading here -->
                 <div class="team-content">
                     <div class="execom-card">
-                        <img src="images/execom/Nawal Miss.jpeg" alt="">
-                        <h3>Nawal Mohammed</h3>
-                        <h5>Assistant Professor</h5>
-                        <h4>Nodal Officer</h4>
+                        <img src="images/execom/Fahmin Fayas. A.K.jpg" alt="">
+                        <h3>Fahmin Fayas</h3>
+                        <h5>BCA II Year</h5>
+                        <h4>CEO</h4>
                         <div class="icons">
 
-                            <a href="#"><i class="ri-linkedin-fill"></i></a>
-                            <a href="https://instagram.com/nawalrisvi?igshid=NTc4MTIwNjQ2YQ=="><i class="ri-instagram-line"></i></a>
+                            <a href="https://www.linkedin.com/in/fahminfayas/"><i class="ri-linkedin-fill"></i></a>
+                            <a href="https://www.instagram.com/__fahmin/"><i class="ri-instagram-line"></i></a>
                         </div>
                     </div>
 
 
                     <div class="execom-card">
-                        <img src="images/execom/Shabeeba Miss.jpeg" alt="">
-                        <h3>Shabeeba</h3>
-                        <h5>Assistant Professor</h5>
-                        <h4>Assistant Nodal Officer</h4>
+                        <img src="images/execom/Niya Pk.jpeg" alt="">
+                        <h3>Niya PK</h3>
+                        <h5>Multimedia II Year</h5>
+                        <h4>WELL Lead</h4>
                         <div class="icons">
 
                             <a href="#"><i class="ri-linkedin-fill"></i></a>
-                            <a href="https://instagram.com/shabeebanawab?igshid=NTc4MTIwNjQ2YQ=="><i class="ri-instagram-line"></i></a>
+                            <a href="https://www.instagram.com/niyaaapk/"><i class="ri-instagram-line"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="execom-card">
+                        <img src="images/execom/Thaiseer.jpeg" alt="">
+                        <h3>Thaiseer Mohammed</h3>
+                        <h5>BA English II Year</h5>
+                        <h4>Quality Operation Lead</h4>
+                        <div class="icons">
+                            <a href="https://www.linkedin.com/in/thaiseer-valiyakath-018a71279"><i
+                                    class="ri-linkedin-fill"></i></a>
+                            <a href="https://www.instagram.com/thaiseer_vk/"><i class="ri-instagram-line"></i></a>
                         </div>
                     </div>
 
                     <div class="execom-card">
-                        <img src="images/execom/Ashiq Sir.jpg" alt="">
-                        <h3>Ashiq VM</h3>
-                        <h5>Assistant Professor</h5>
-                        <h4>Faculty Technical Officer</h4>
+                        <img src="images/execom/Mohammed Ashiq.jpg" alt="">
+                        <h3>Mohammed Ashiq</h3>
+                        <h5>BCA II Year</h5>
+                        <h4>Technical Lead</h4>
+                        <div class="icons">
+                            <a href="https://www.linkedin.com/in/mohammed-ashiq-k-573764283"><i
+                                    class="ri-linkedin-fill"></i></a>
+                            <a href="https://www.instagram.com/_as_h_iq_mohd_/"><i class="ri-instagram-line"></i></a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="execom-card">
+                        <img src="images/execom/Faheem Fezi.jpg" alt="">
+                        <h3>Faheem VT</h3>
+                        <h5>BBA II Year</h5>
+                        <h4>Branding and Marketing Lead</h4>
+                        <div class="icons">
+
+                            <a href="https://www.linkedin.com/in/faheem-vt-40864327b"><i
+                                    class="ri-linkedin-fill"></i></a>
+                            <a href="https://www.instagram.com/fezii_x/"><i class="ri-instagram-line"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="execom-card">
+                        <img src="images/execom/Saheer Palampadiyan.JPG" alt="">
+                        <h3>Mohammed Saheer</h3>
+                        <h5>Multimedia II Year</h5>
+                        <h4>Creative Lead</h4>
+                        <div class="icons">
+
+                            <a href="#"><i class="ri-linkedin-fill"></i></a>
+                            <a href="https://www.instagram.com/saheer_palampadiyan/"><i
+                                    class="ri-instagram-line"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="execom-card">
+                        <img src="images/execom/Fathima Suhada.jpg" alt="">
+                        <h3>Fathima Suhada</h3>
+                        <h5>Multimedia II Year</h5>
+                        <h4>Community Lead</h4>
                         <div class="icons">
 
                             <a href="#"><i class="ri-linkedin-fill"></i></a>
@@ -132,10 +243,73 @@
                     </div>
 
                     <div class="execom-card">
-                        <img src="images/execom/Nayeem Sir.png" alt="">
-                        <h3>Nayeem P</h3>
-                        <h5>Assistant Professor</h5>
-                        <h4>Faculty Media <br>Officer</h4>
+                        <img src="images/execom/Rashad.png" alt="">
+                        <h3>Rashad Rasi</h3>
+                        <h5>BCOM CA II Year</h5>
+                        <h4>Finance Lead</h4>
+                        <div class="icons">
+
+                            <a href="#"><i class="ri-linkedin-fill"></i></a>
+                            <a href="https://www.instagram.com/rasiie_/"><i class="ri-instagram-line"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="execom-card">
+                        <img src="images/execom/Mohammed Junaid.jpeg" alt="">
+                        <h3>Mohammed Junaid</h3>
+                        <h5>BCOM CA II Year</h5>
+                        <h4>IPR & Research Lead</h4>
+                        <div class="icons">
+
+                            <a href="#"><i class="ri-linkedin-fill"></i></a>
+                            <a href="https://www.instagram.com/jun.xz/"><i class="ri-instagram-line"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="execom-card">
+                        <img src="images/execom/Mohammed Nufail.jpg" alt="">
+                        <h3>Mohammed Nufail</h3>
+                        <h5>BSC Electronics II Year</h5>
+                        <h4>Program Organization Lead</h4>
+                        <div class="icons">
+
+                            <a href="#"><i class="ri-linkedin-fill"></i></a>
+                            <a href="https://www.instagram.com/nufail_panakkal_/"><i class="ri-instagram-line"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="execom-card">
+                        <img src="images/execom/Fathema Fedha.jpg" alt="">
+                        <h3>Fathema Fedha</h3>
+                        <h5>BCOM TT II Year</h5>
+                        <h4>Department Lead</h4>
+                        <div class="icons">
+
+                            <a href="#"><i class="ri-linkedin-fill"></i></a>
+                            <a href="https://www.instagram.com/tz_fedha_/"><i class="ri-instagram-line"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="execom-card">
+                        <img src="images/execom/Diya.jpg" alt="">
+                        <h3>Diya Sheri</h3>
+                        <h5>BA Economics II Year</h5>
+                        <h4>Department Lead</h4>
+                        <div class="icons">
+
+                            <a href="#"><i class="ri-linkedin-fill"></i></a>
+                            <a href="https://instagram.com/diya.sheriot7?igshid=NTc4MTIwNjQ2YQ=="><i
+                                    class="ri-instagram-line"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="execom-card">
+                        <img src="images/execom/Muhsina.jpg" alt="">
+                        <h3>Muhsina Theslin</h3>
+                        <h5>BSC Psychology II Year</h5>
+                        <h4>Department Lead</h4>
                         <div class="icons">
 
                             <a href="#"><i class="ri-linkedin-fill"></i></a>
@@ -144,1219 +318,1197 @@
                     </div>
                 </div>
 
-                    <!-- Execom Members Section-->
-                    <div class="execom-section">
-                        <h2 class="subheading">Execom Members</h2> <!-- Add the subheading here -->
-                        <div class="team-content">
-                            <div class="execom-card">
-                                <img src="images/execom/Fahmin Fayas. A.K.jpg" alt="">
-                                <h3>Fahmin Fayas</h3>
-                                <h5>BCA II Year</h5>
-                                <h4>CEO</h4>
+    </section>
+    <section id="teamsSection" class="container" style="display: none;">
+        <div class="header">
+            <h1>Teams</h1>
+        </div>
+        <div class="card__container swiper">
+            <h2 class="subheading">WELL <span>Team</span></h2> <!-- Add the subheading here -->
+            <div class="card__content">
+                <div class="swiper-wrapper">
+                    <article class="card__article swiper-slide">
+                        <img src="images/execom/Niya Pk.jpeg" alt="team">
+
+                        <div class="card__data">
+                            <h3 class="card__name">Niya PK</h3>
+                            <h5>Multimedia II Year</h5>
+                            <h4>Team Lead</h4>
+
+                            <div class="icons">
+
+                                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                <a href="https://www.instagram.com/niyaaapk/"><i class="ri-instagram-line"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card__article swiper-slide">
+                        <img src="images/execom/WELL Team/Manal. Valappil.jpg" alt="team">
+
+                        <div class="card__data">
+                            <h3 class="card__name">Manal Valappil</h3>
+                            <h5>BA English II Year</h5>
+                            <h4>Team Co-lead</h4>
+
+                            <div class="icons">
+                                <a href="https://www.linkedin.com/in/manal-valappil-19562a288"><i
+                                        class="ri-linkedin-fill"></i></a>
+                                <a href="#"><i class="ri-instagram-line"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card__article swiper-slide">
+                        <img src="images/execom/WELL Team/Afreena Fidha.jpg" alt="team">
+
+                        <div class="card__data">
+                            <h3 class="card__name">Afreena Fidha</h3>
+                            <h5>Multimedia II Year</h5>
+                            <h4>Team Member</h4>
+
+                            <div class="icons">
+                                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                <a href="#"><i class="ri-instagram-line"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card__article swiper-slide">
+                        <img src="images/execom/WELL Team/Ayishath Shafeeka.jpg" alt="team">
+
+                        <div class="card__data">
+                            <h3 class="card__name">Ayishath Shafeeka</h3>
+                            <h5>Pyscology II Year</h5>
+                            <h4>Team Member</h4>
+
+                            <div class="icons">
+                                <a href="https://www.linkedin.com/in/ayishath-shafeeka-5b55b3288"><i
+                                        class="ri-linkedin-fill"></i></a>
+                                <a href="https://instagram.com/shafeeka_aysh?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i
+                                        class="ri-instagram-line"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="card__article swiper-slide">
+                        <img src="images/execom/WELL Team/Fathima Nihala.jpg" alt="team">
+
+                        <div class="card__data">
+                            <h3 class="card__name">Fathima Nihala</h3>
+                            <h5>BCA II Year</h5>
+                            <h4>Team Member</h4>
+
+                            <div class="icons">
+                                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                <a href="#"><i class="ri-instagram-line"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="card__article swiper-slide">
+                        <img src="images/execom/WELL Team/Hunaina _zyed.JPG" alt="team">
+
+                        <div class="card__data">
+                            <h3 class="card__name">Hunaina P</h3>
+                            <h5>Psychology II Year</h5>
+                            <h4>Team Member</h4>
+
+                            <div class="icons">
+                                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                <a href="#"><i class="ri-instagram-line"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card__article swiper-slide">
+                        <img src="images/execom/WELL Team/Irfaaana Sherin.jpg" alt="team">
+
+                        <div class="card__data">
+                            <h3 class="card__name">Irfana Sherin</h3>
+                            <h5>BSC Electronics II Year</h5>
+                            <h4>Team Member</h4>
+
+                            <div class="icons">
+                                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                <a href="#"><i class="ri-instagram-line"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="card__article swiper-slide">
+                        <img src="images/execom/WELL Team/Shahanas PI.jpg" alt="team">
+
+                        <div class="card__data">
+                            <h3 class="card__name">Fathima Shahanas</h3>
+                            <h5>BCOM TT II Year</h5>
+                            <h4>Team Member</h4>
+
+                            <div class="icons">
+                                <a href="https://www.linkedin.com/in/jaseera-kp-06b280288"><i
+                                        class="ri-linkedin-fill"></i></a>
+                                <a href="https://instagram.com/shahanas_fah?igshid=MzRlODBiNWFlZA=="><i
+                                        class="ri-instagram-line"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card__article swiper-slide">
+                        <img src="images/execom/WELL Team/Thamanna jabeen.jpg" alt="team">
+
+                        <div class="card__data">
+                            <h3 class="card__name">Thamanna Jabeen</h3>
+                            <h5>BA Economics II Year</h5>
+                            <h4>Team Member</h4>
+
+                            <div class="icons">
+                                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                <a href="https://instagram.com/thamanna.thefuture?igshid=MmU2YjMzNjRlOQ=="><i
+                                        class="ri-instagram-line"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next">
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+                <i class="ri-arrow-left-s-line"></i>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!--team section2-->
+        <section class="team-sec2">
+            <div class="card__container swiper">
+                <h2 class="subheading">Quality & Operation <span>Team</span></h2> <!-- Add the subheading here -->
+                <div class="card__content2">
+                    <div class="swiper-wrapper">
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Thaiseer.jpeg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Thaiseer Mohammed</h3>
+                                <h5>BA English II Year</h5>
+                                <h4>Team Lead</h4>
+
                                 <div class="icons">
-                                    
-                                    <a href="https://www.linkedin.com/in/fahminfayas/"><i class="ri-linkedin-fill"></i></a>
-                                    <a href="https://www.instagram.com/__fahmin/"><i class="ri-instagram-line"></i></a>
+                                    <a href="https://www.linkedin.com/in/thaiseer-valiyakath-018a71279"><i
+                                            class="ri-linkedin-fill"></i></a>
+                                    <a href="https://www.instagram.com/thaiseer_vk/"><i
+                                            class="ri-instagram-line"></i></a>
                                 </div>
                             </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Quality & Operation Team/Fatima Rinsha Kp.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Fathima Rinsha KP</h3>
+                                <h5>BA English II Year</h5>
+                                <h4>Team Co-Lead</h4>
+
+                                <div class="icons">
+                                    <a href="https://in.linkedin.com/in/fathima-rinsha-kp-87b698288"><i
+                                            class="ri-linkedin-fill"></i></a>
+                                    <a href="https://instagram.com/_rin.shaa?igshid=ZGUzMzM3NWJiOQ=="><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/team/avatar-1.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Fathima Rinsha KT</h3>
+                                <h5>BA English II Year</h5>
+                                <h4>Team Co-Lead</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
 
 
-                            <div class="execom-card">
-                                <img src="images/execom/Niya Pk.jpeg" alt="">
-                                <h3>Niya PK</h3>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Quality & Operation Team/Shahin Muhammed.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Shahin Mohammed</h3>
+                                <h5>BCA II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/team/avatar-1.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Muhammed Jumail</h3>
+                                <h5>BCA II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="https://instagram.com/__jumail?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Navigation buttons -->
+                <div class="swiper-button-next2">
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+
+                <div class="swiper-button-prev2">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+
+                <!-- Pagination -->
+                <div class="swiper-pagination2"></div>
+            </div>
+        </section>
+
+        <!--team section3-->
+        <section class="team-sec3">
+            <div class="card__container swiper">
+                <h2 class="subheading">Technical <span>Team</span></h2> <!-- Add the subheading here -->
+                <div class="card__content3">
+                    <div class="swiper-wrapper">
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Mohammed Ashiq.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Mohammed Ashiq</h3>
+                                <h5>BCA II Year</h5>
+                                <h4>Team Lead</h4>
+
+                                <div class="icons">
+                                    <a href="https://www.linkedin.com/in/mohammed-ashiq-k-573764283"><i
+                                            class="ri-linkedin-fill"></i></a>
+                                    <a href="https://www.instagram.com/_as_h_iq_mohd_/"><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Technical Team/ShabasRahman.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Shabas Rahman</h3>
+                                <h5>BCA II Year</h5>
+                                <h4>Team Co-Lead</h4>
+
+                                <div class="icons">
+                                    <a href="https://in.linkedin.com/in/shabas-rahman"><i
+                                            class="ri-linkedin-fill"></i></a>
+                                    <a href="https://instagram.com/shabas.rahman?igshid=MzNlNGNkZWQ4Mg=="><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Technical Team/Ashfaque.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Mohammed Ashfaque</h3>
+                                <h5>BCA II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="https://instagram.com/ashfaque_m_?igshid=ZGUzMzM3NWJiOQ=="><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Technical Team/Madhav.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Madhav P Anand</h3>
+                                <h5>BCA II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="https://www.linkedin.com/in/madhav-p-anand-692566288"><i
+                                            class="ri-linkedin-fill"></i></a>
+                                    <a href="https://instagram.com/mdhvvvvv?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Technical Team/Adhiraj.jpeg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Adhiraj Dhanjith</h3>
+                                <h5>BCA II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="https://in.linkedin.com/in/adhiraj-dhanjith-71470123b"><i
+                                            class="ri-linkedin-fill"></i></a>
+                                    <a href="https://www.instagram.com/ad.iraj/"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Navigation buttons -->
+                <div class="swiper-button-next3">
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+
+                <div class="swiper-button-prev3">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+
+                <!-- Pagination -->
+                <div class="swiper-pagination3"></div>
+            </div>
+        </section>
+
+        <!--team section4-->
+        <section class="team-sec4">
+            <div class="card__container swiper">
+                <h2 class="subheading">Branding & Marketing <span>Team</span></h2> <!-- Add the subheading here -->
+                <div class="card__content4">
+                    <div class="swiper-wrapper">
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Faheem Fezi.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Faheem VT</h3>
+                                <h5>BBA II Year</h5>
+                                <h4>Team Lead</h4>
+
+                                <div class="icons">
+                                    <a href="https://www.linkedin.com/in/faheem-vt-40864327b"><i
+                                            class="ri-linkedin-fill"></i></a>
+                                    <a href="https://www.instagram.com/fezii_x/"><i class="ri-instagram-line"></i></a>
+                                </div>
+
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Branding and Marketing Team/Rishin.JPG" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Rishin Salam</h3>
+                                <h5>BCA II Year</h5>
+                                <h4>Team Co-Lead</h4>
+
+                                <div class="icons">
+                                    <a href="http://linkedin.com/in/rishin-salam-m-a3784627b"><i
+                                            class="ri-linkedin-fill"></i></a>
+                                    <a href="https://instagram.com/rishinbinsalam?igshid=MjEwN2IyYWYwYw=="><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Branding and Marketing Team/Muhammad Hisham.jpeg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Mohammed Hisham PM</h3>
+                                <h5>BCA II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="http://www.linkedin.com/in/mohammed-hisham-pm-5ab339280"><i
+                                            class="ri-linkedin-fill"></i></a>
+                                    <a href="https://instagram.com/mohisham._?igshid=OGQ5ZDc2ODk2ZA=="><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Branding and Marketing Team/Arshad . K.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Arshad K</h3>
+                                <h5>BBA II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="https://instagram.com/_arshhad__?igshid=NTc4MTIwNjQ2YQ=="><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Branding and Marketing Team/Jaseer Palliyali.jpeg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Mohammed Jaseer</h3>
+                                <h5>BBA II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="https://instagram.com/jsr_.p?igshid=MmIzYWVlNDQ5Yg=="><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Branding and Marketing Team/Mishal Ap.jpeg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Muhammed Mishal</h3>
+                                <h5>BCA II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="https://www.linkedin.com/in/mishal-ap-53084b27b"><i
+                                            class="ri-linkedin-fill"></i></a>
+                                    <a href="#https://instagram.com/miishaal.ap?igshid=OGQ5ZDc2ODk2ZA=="><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+
+
+
+                    </div>
+                </div>
+
+                <!-- Navigation buttons -->
+                <div class="swiper-button-next4">
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+
+                <div class="swiper-button-prev4">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+
+                <!-- Pagination -->
+                <div class="swiper-pagination4"></div>
+            </div>
+        </section>
+
+        <!--team section5-->
+        <section class="team-sec5">
+            <div class="card__container swiper">
+                <h2 class="subheading">Creative <span>Team</span></h2> <!-- Add the subheading here -->
+                <div class="card__content5">
+                    <div class="swiper-wrapper">
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Saheer Palampadiyan.JPG" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Mohammed Saheer</h3>
                                 <h5>Multimedia II Year</h5>
-                                <h4>WELL Lead</h4>
+                                <h4>Team Lead</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="https://www.instagram.com/saheer_palampadiyan/"><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Creative Team/Muhammed Afthah.jpeg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Muhammad Aftah</h3>
+                                <h5>Multimedia II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Creative Team/Niyas.jpeg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Niyas Ali</h3>
+                                <h5>Multimedia II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Creative Team/Fabna Sherin.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Fabna Sherin</h3>
+                                <h5>Multimedia II Year</h5>
+                                <h4>Team Co-Lead</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Creative Team/Fathima Fidha.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Fathima Fidha</h3>
+                                <h5>Multimedia II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="https://instagram.com/flapizo?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <!-- Navigation buttons -->
+                <div class="swiper-button-next5">
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+
+                <div class="swiper-button-prev5">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+
+                <!-- Pagination -->
+                <div class="swiper-pagination5"></div>
+            </div>
+        </section>
+
+        <!--team section6-->
+        <section class="team-sec6">
+            <div class="card__container swiper">
+                <h2 class="subheading">Community <span>Team</span></h2> <!-- Add the subheading here -->
+                <div class="card__content6">
+                    <div class="swiper-wrapper">
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Fathima Suhada.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Fathima Suhada</h3>
+                                <h5>Multimedia II Year</h5>
+                                <h4>Team Lead</h4>
+
                                 <div class="icons">
 
                                     <a href="#"><i class="ri-linkedin-fill"></i></a>
-                                    <a href="https://www.instagram.com/niyaaapk/"><i class="ri-instagram-line"></i></a>
-                                </div>
-                            </div>
-
-
-                            <div class="execom-card">
-                                <img src="images/execom/Thaiseer.jpeg" alt="">
-                                <h3>Thaiseer Mohamed</h3>
-                                <h5>BA English II Year</h5>
-                                <h4>Quality Operation Lead</h4>
-                                <div class="icons">
-                                    <a href="https://www.linkedin.com/in/thaiseer-valiyakath-018a71279"><i class="ri-linkedin-fill"></i></a>
-                                    <a href="https://www.instagram.com/thaiseer_vk/"><i class="ri-instagram-line"></i></a>
-                                </div>
-                            </div>
-
-                            <div class="execom-card">
-                                <img src="images/execom/Mohammed Ashiq.jpg" alt="">
-                                <h3>Mohammed Ashiq</h3>
-                                <h5>BCA II Year</h5>
-                                <h4>Technical Lead</h4>
-                                <div class="icons">
-                                    <a href="https://www.linkedin.com/in/mohammed-ashiq-k-573764283"><i class="ri-linkedin-fill"></i></a>
-                                    <a href="https://www.instagram.com/_as_h_iq_mohd_/"><i class="ri-instagram-line"></i></a>
-                                </div>
-                            </div>
-
-
-
-                            <div class="execom-card">
-                                <img src="images/execom/Faheem Fezi.jpg" alt="">
-                                <h3>Faheem VT</h3>
-                                <h5>BBA II Year</h5>
-                                <h4>Branding and Marketing Lead</h4>
-                                <div class="icons">
-
-                                    <a href="https://www.linkedin.com/in/faheem-vt-40864327b"><i class="ri-linkedin-fill"></i></a>
-                                    <a href="https://www.instagram.com/fezii_x/"><i class="ri-instagram-line"></i></a>
-                                </div>
-                            </div>
-
-                            <div class="execom-card">
-                                <img src="images/execom/Saheer Palampadiyan.JPG" alt="">
-                                <h3>Mohammed Saheer</h3>
-                                <h5>Multimedia II Year</h5>
-                                <h4>Creative Lead</h4>
-                                <div class="icons">
-
-                                    <a href=""><i class="ri-linkedin-fill"></i></a>
-                                    <a href="https://www.instagram.com/saheer_palampadiyan/"><i class="ri-instagram-line"></i></a>
-                                </div>
-                            </div>
-
-                            <div class="execom-card">
-                                <img src="images/execom/Fathima Suhada.jpg" alt="">
-                                <h3>Fathima Suhada</h3>
-                                <h5>Multimedia II Year</h5>
-                                <h4>Community Lead</h4>
-                                <div class="icons">
-
-                                    <a href=""><i class="ri-linkedin-fill"></i></a>
                                     <a href="#"><i class="ri-instagram-line"></i></a>
                                 </div>
                             </div>
+                        </article>
 
-                            <div class="execom-card">
-                                <img src="images/execom/Rashad.png" alt="">
-                                <h3>Rashad Rasi</h3>
+                        <article class="card__article swiper-slide">
+                            <img src="images/team/avatar-1.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Name</h3>
+                                <h5>BSC II Year</h5>
+                                <h4>Team Co-Lead</h4>
+
+                                <div class="icons">
+                                    <i class="ri-linkedin-fill"></i>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/team/avatar-1.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Name</h3>
+                                <h5>BSC II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <i class="ri-linkedin-fill"></i>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/team/avatar-1.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Name</h3>
+                                <h5>BSC II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <i class="ri-linkedin-fill"></i>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/team/avatar-1.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Name</h3>
+                                <h5>BSC II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <i class="ri-linkedin-fill"></i>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Navigation buttons -->
+                <div class="swiper-button-next6">
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+
+                <div class="swiper-button-prev6">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+
+                <!-- Pagination -->
+                <div class="swiper-pagination6"></div>
+            </div>
+        </section>
+
+        <!--team section7-->
+        <section class="team-sec7">
+            <div class="card__container swiper">
+                <h2 class="subheading">Finance <span>Team</span></h2> <!-- Add the subheading here -->
+                <div class="card__content7">
+                    <div class="swiper-wrapper">
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Rashad.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Rashad Rasi</h3>
                                 <h5>BCOM CA II Year</h5>
-                                <h4>Finance Lead</h4>
+                                <h4>Team Lead</h4>
+
                                 <div class="icons">
 
-                                    <a href=""><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
                                     <a href="https://www.instagram.com/rasiie_/"><i class="ri-instagram-line"></i></a>
                                 </div>
                             </div>
+                        </article>
 
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Finance Team/Shameel Koolath.png" alt="team">
 
-                            <div class="execom-card">
-                                <img src="images/execom/Mohammed Junaid.jpeg" alt="">
-                                <h3>Mohammed Junaid</h3>
+                            <div class="card__data">
+                                <h3 class="card__name">Muhammed Shameel</h3>
                                 <h5>BCOM CA II Year</h5>
-                                <h4>IPR & Research Lead</h4>
+                                <h4>Team Co-Lead</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/team/avatar-1.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Name</h3>
+                                <h5>BSC II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/team/avatar-1.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Name</h3>
+                                <h5>BSC II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/team/avatar-1.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Name</h3>
+                                <h5>BSC II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Navigation buttons -->
+                <div class="swiper-button-next7">
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+
+                <div class="swiper-button-prev7">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+
+                <!-- Pagination -->
+                <div class="swiper-pagination7"></div>
+            </div>
+        </section>
+
+        <!--team section8-->
+        <section class="team-sec8">
+            <div class="card__container swiper">
+                <h2 class="subheading">IPR & Research <span>Team</span></h2> <!-- Add the subheading here -->
+                <div class="card__content8">
+                    <div class="swiper-wrapper">
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Mohammed Junaid.jpeg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Mohammed Junaid</h3>
+                                <h5>BCOM CA II Year</h5>
+                                <h4>Team Lead</h4>
+
                                 <div class="icons">
 
-                                    <a href=""><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
                                     <a href="https://www.instagram.com/jun.xz/"><i class="ri-instagram-line"></i></a>
                                 </div>
                             </div>
+                        </article>
 
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/IPR & Research Team/Muhammed Salim.jpg" alt="team">
 
-                            <div class="execom-card">
-                                <img src="images/execom/Mohammed Nufail.jpg" alt="">
-                                <h3>Mohammed Nufail</h3>
-                                <h5>BSC Electronics II Year</h5>
-                                <h4>Program Organization Lead</h4>
+                            <div class="card__data">
+                                <h3 class="card__name">Muhammed Salim</h3>
+                                <h5>BCOM CA II Year</h5>
+                                <h4>Team Co-Lead</h4>
+
                                 <div class="icons">
-
-                                    <a href=""><i class="ri-linkedin-fill"></i></a>
-                                    <a href="https://www.instagram.com/nufail_panakkal_/"><i class="ri-instagram-line"></i></a>
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
                                 </div>
                             </div>
+                        </article>
 
-                            <div class="execom-card">
-                                <img src="images/execom/Fathema Fedha.jpg" alt="">
-                                <h3>Fathema Fedha</h3>
-                                <h5>BCOM TT II Year</h5>
-                                <h4>Department Lead</h4>
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/IPR & Research Team/Aflah.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Aflah</h3>
+                                <h5>BCOM CA II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="https://instagram.com/a_fl_a_h_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/IPR & Research Team/Fahmitha V.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Fahmitha V</h3>
+                                <h5>BCOM CA II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a
+                                        href="https://instagram.com/_fah_mitha_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/IPR & Research Team/Femin Ali.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Femin Ali</h3>
+                                <h5>BCOM CA II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Navigation buttons -->
+                <div class="swiper-button-next8">
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+
+                <div class="swiper-button-prev8">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+
+                <!-- Pagination -->
+                <div class="swiper-pagination8"></div>
+            </div>
+        </section>
+
+        <!--team section9-->
+        <section class="team-sec9">
+            <div class="card__container swiper">
+                <h2 class="subheading">Program Organization <span>Team</span></h2> <!-- Add the subheading here -->
+                <div class="card__content9">
+                    <div class="swiper-wrapper">
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Mohammed Nufail.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Mohammed Nufail</h3>
+                                <h5>BSC Electronics II Year</h5>
+                                <h4>Team Lead</h4>
+
                                 <div class="icons">
 
-                                    <a href=""><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="https://www.instagram.com/nufail_panakkal_/"><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Program Organization Team/HASHIQ PULLADAN.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Mohammed Hashiq</h3>
+                                <h5>BSC Electronics II Year</h5>
+                                <h4>Team Co-Lead</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="https://instagram.com/hashiq_hkp?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Program Organization Team/Ansif.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Ansif</h3>
+                                <h5>BSC Electronics II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="https://instagram.com/ansii.f?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/team/avatar-1.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Name</h3>
+                                <h5>BSC II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/team/avatar-1.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Name</h3>
+                                <h5>BSC II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Navigation buttons -->
+                <div class="swiper-button-next9">
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+
+                <div class="swiper-button-prev9">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+
+                <!-- Pagination -->
+                <div class="swiper-pagination9"></div>
+            </div>
+        </section>
+
+        <!--team section10-->
+        <section class="team-sec10">
+            <div class="card__container swiper">
+                <h2 class="subheading">Department <span>Leads </span></h2> <!-- Add the subheading here -->
+                <div class="card__content10">
+                    <div class="swiper-wrapper">
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Fathema Fedha.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Fathema Fedha</h3>
+                                <h5>BCOM TT II Year</h5>
+                                <h4>Department Lead</h4>
+
+                                <div class="icons">
+
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
                                     <a href="https://www.instagram.com/tz_fedha_/"><i class="ri-instagram-line"></i></a>
                                 </div>
                             </div>
+                        </article>
 
-                            <div class="execom-card">
-                                <img src="images/execom/Diya.jpg" alt="">
-                                <h3>Diya Sheri</h3>
-                                <h5>BA Economics II Year</h5>
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Muhsina.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Muhsina Theslin</h3>
+                                <h5>Psychology II Year</h5>
                                 <h4>Department Lead</h4>
-                                <div class="icons">
 
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="https://instagram.com/diya.sheriot7?igshid=NTc4MTIwNjQ2YQ=="><i class="ri-instagram-line"></i></a>
+                                <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
                                 </div>
                             </div>
+                        </article>
 
-                            <div class="execom-card">
-                                <img src="images/execom/Muhsina.jpg" alt="">
-                                <h3>Muhsina Theslin</h3>
-                                <h5>BSC Psychology II Year</h5>
-                                <h4>Department Lead</h4>
+                        <article class="card__article swiper-slide">
+                            <img src="images/execom/Department Leads/jaseel.jpg" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Muhammed Jaseel</h3>
+                                <h5>BCOM TT II Year</h5>
+                                <h4>Assistant Department Lead</h4>
+
                                 <div class="icons">
+                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                    <a href="https://instagram.com/_jazzeel?igshid=MzRlODBiNWFlZA=="><i
+                                            class="ri-instagram-line"></i></a>
+                                </div>
+                            </div>
+                        </article>
 
+                        <article class="card__article swiper-slide">
+                            <img src="images/team/avatar-1.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Name</h3>
+                                <h5>BSC II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
                                     <i class="ri-linkedin-fill"></i>
                                     <a href="#"><i class="ri-instagram-line"></i></a>
                                 </div>
                             </div>
-                       </div>
-                    
-        </section>
-        <section id="teamsSection" class="container" style="display: none;">
-            <div class="header">
-                <h1>Teams</h1>
-            </div>
-            <div class="card__container swiper">
-                <h2 class="subheading">Technical <span>Team</span></h2> <!-- Add the subheading here -->
-                <div class="card__content">
-                   <div class="swiper-wrapper">
-                      <article class="card__article swiper-slide">
-                        <img src="images/execom/Fahmin Fayas. A.K.jpg" alt="team">
-          
-                         <div class="card__data">
-                            <h3 class="card__name">Kell Dawx</h3>
-                            <h5>BSC II Year</h5>
-                            <h4>Team Lead</h4>
-          
-                            <div class="icons">
-                                <i class="ri-linkedin-fill"></i>
-                                <a href="#"><i class="ri-instagram-line"></i></a>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/team/avatar-1.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Name</h3>
+                                <h5>BSC II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <i class="ri-linkedin-fill"></i>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
                             </div>
-                         </div>
-                      </article>
-          
-                      <article class="card__article swiper-slide">
-                        <img src="images/execom/Mohammed Ashiq.jpg" alt="team">
-          
-                         <div class="card__data">
-                            <h3 class="card__name">Kell Dawx</h3>
-                            <h5>BSC II Year</h5>
-                            <h4>Team Co-Lead</h4>
-          
-                            <div class="icons">
-                                <i class="ri-linkedin-fill"></i>
-                                <a href="#"><i class="ri-instagram-line"></i></a>
+                        </article>
+
+                        <article class="card__article swiper-slide">
+                            <img src="images/team/avatar-1.png" alt="team">
+
+                            <div class="card__data">
+                                <h3 class="card__name">Name</h3>
+                                <h5>BSC II Year</h5>
+                                <h4>Team Member</h4>
+
+                                <div class="icons">
+                                    <i class="ri-linkedin-fill"></i>
+                                    <a href="#"><i class="ri-instagram-line"></i></a>
+                                </div>
                             </div>
-                         </div>
-                      </article>
-          
-                      <article class="card__article swiper-slide">
-                        <img src="images/execom/Thaiseer.jpeg" alt="team">
-          
-                         <div class="card__data">
-                            <h3 class="card__name">Kell Dawx</h3>
-                            <h5>BSC II Year</h5>
-                            <h4>Team Member</h4>
-          
-                            <div class="icons">
-                                <i class="ri-linkedin-fill"></i>
-                                <a href="#"><i class="ri-instagram-line"></i></a>
-                            </div>
-                         </div>
-                      </article>
-          
-                      <article class="card__article swiper-slide">
-                        <img src="images/execom/Mohammed Nufail.jpg" alt="team">
-          
-                         <div class="card__data">
-                            <h3 class="card__name">Kell Dawx</h3>
-                            <h5>BSC II Year</h5>
-                            <h4>Team Member</h4>
-          
-                            <div class="icons">
-                                <i class="ri-linkedin-fill"></i>
-                                <a href="#"><i class="ri-instagram-line"></i></a>
-                            </div>
-                         </div>
-                      </article>
-    
-                      <article class="card__article swiper-slide">
-                        <img src="images/execom/Saheer Palampadiyan.JPG" alt="team">
-          
-                         <div class="card__data">
-                            <h3 class="card__name">Kell Dawx</h3>
-                            <h5>BSC II Year</h5>
-                            <h4>Team Member</h4>
-          
-                            <div class="icons">
-                                <i class="ri-linkedin-fill"></i>
-                                <a href="#"><i class="ri-instagram-line"></i></a>
-                            </div>
-                         </div>
-                      </article>
-                   </div>
+                        </article>
+                    </div>
                 </div>
-    
+
                 <!-- Navigation buttons -->
-                <div class="swiper-button-next">
-                   <i class="ri-arrow-right-s-line"></i>
+                <div class="swiper-button-next10">
+                    <i class="ri-arrow-right-s-line"></i>
                 </div>
-                
-                <div class="swiper-button-prev">
-                   <i class="ri-arrow-left-s-line"></i>
+
+                <div class="swiper-button-prev10">
+                    <i class="ri-arrow-left-s-line"></i>
                 </div>
-    
+
                 <!-- Pagination -->
-                <div class="swiper-pagination"></div>
-            </div> 
-
-            <!--team section2-->
-            <section class="team-sec2">
-                <div class="card__container swiper">
-                    <h2 class="subheading">Technical <span>Team</span></h2> <!-- Add the subheading here -->
-                    <div class="card__content2">
-                       <div class="swiper-wrapper">
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Fahmin Fayas. A.K.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Ashiq.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Co-Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Thaiseer.jpeg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Nufail.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-        
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Saheer Palampadiyan.JPG" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-                       </div>
-                    </div>
-        
-                    <!-- Navigation buttons -->
-                    <div class="swiper-button-next2">
-                       <i class="ri-arrow-right-s-line"></i>
-                    </div>
-                    
-                    <div class="swiper-button-prev2">
-                       <i class="ri-arrow-left-s-line"></i>
-                    </div>
-        
-                    <!-- Pagination -->
-                    <div class="swiper-pagination2"></div>
-                </div>
-            </section>
-            
-            <!--team section3-->
-            <section class="team-sec3">
-                <div class="card__container swiper">
-                    <h2 class="subheading">Technical <span>Team</span></h2> <!-- Add the subheading here -->
-                    <div class="card__content3">
-                       <div class="swiper-wrapper">
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Fahmin Fayas. A.K.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Ashiq.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Co-Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Thaiseer.jpeg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Nufail.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-        
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Saheer Palampadiyan.JPG" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-                       </div>
-                    </div>
-        
-                    <!-- Navigation buttons -->
-                    <div class="swiper-button-next3">
-                       <i class="ri-arrow-right-s-line"></i>
-                    </div>
-                    
-                    <div class="swiper-button-prev3">
-                       <i class="ri-arrow-left-s-line"></i>
-                    </div>
-        
-                    <!-- Pagination -->
-                    <div class="swiper-pagination3"></div>
-                </div>
-            </section>
-
-            <!--team section4-->
-            <section class="team-sec4">
-                <div class="card__container swiper">
-                    <h2 class="subheading">Technical <span>Team</span></h2> <!-- Add the subheading here -->
-                    <div class="card__content4">
-                       <div class="swiper-wrapper">
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Fahmin Fayas. A.K.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Ashiq.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Co-Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Thaiseer.jpeg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Nufail.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-        
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Saheer Palampadiyan.JPG" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-                       </div>
-                    </div>
-        
-                    <!-- Navigation buttons -->
-                    <div class="swiper-button-next4">
-                       <i class="ri-arrow-right-s-line"></i>
-                    </div>
-                    
-                    <div class="swiper-button-prev4">
-                       <i class="ri-arrow-left-s-line"></i>
-                    </div>
-        
-                    <!-- Pagination -->
-                    <div class="swiper-pagination4"></div>
-                </div>
-            </section> 
-            
-             <!--team section5-->
-             <section class="team-sec5">
-                <div class="card__container swiper">
-                    <h2 class="subheading">Technical <span>Team</span></h2> <!-- Add the subheading here -->
-                    <div class="card__content5">
-                       <div class="swiper-wrapper">
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Fahmin Fayas. A.K.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Ashiq.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Co-Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Thaiseer.jpeg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Nufail.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-        
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Saheer Palampadiyan.JPG" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-                       </div>
-                    </div>
-        
-                    <!-- Navigation buttons -->
-                    <div class="swiper-button-next5">
-                       <i class="ri-arrow-right-s-line"></i>
-                    </div>
-                    
-                    <div class="swiper-button-prev5">
-                       <i class="ri-arrow-left-s-line"></i>
-                    </div>
-        
-                    <!-- Pagination -->
-                    <div class="swiper-pagination5"></div>
-                </div>
-             </section> 
-
-            <!--team section6-->
-            <section class="team-sec6">
-                <div class="card__container swiper">
-                    <h2 class="subheading">Technical <span>Team</span></h2> <!-- Add the subheading here -->
-                    <div class="card__content6">
-                       <div class="swiper-wrapper">
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Fahmin Fayas. A.K.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Ashiq.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Co-Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Thaiseer.jpeg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Nufail.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-        
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Saheer Palampadiyan.JPG" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-                       </div>
-                    </div>
-        
-                    <!-- Navigation buttons -->
-                    <div class="swiper-button-next6">
-                       <i class="ri-arrow-right-s-line"></i>
-                    </div>
-                    
-                    <div class="swiper-button-prev6">
-                       <i class="ri-arrow-left-s-line"></i>
-                    </div>
-        
-                    <!-- Pagination -->
-                    <div class="swiper-pagination6"></div>
-                </div>
-             </section>
-
-             <!--team section7-->
-            <section class="team-sec7">
-                <div class="card__container swiper">
-                    <h2 class="subheading">Technical <span>Team</span></h2> <!-- Add the subheading here -->
-                    <div class="card__content7">
-                       <div class="swiper-wrapper">
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Fahmin Fayas. A.K.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Ashiq.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Co-Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Thaiseer.jpeg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Nufail.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-        
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Saheer Palampadiyan.JPG" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-                       </div>
-                    </div>
-        
-                    <!-- Navigation buttons -->
-                    <div class="swiper-button-next7">
-                       <i class="ri-arrow-right-s-line"></i>
-                    </div>
-                    
-                    <div class="swiper-button-prev7">
-                       <i class="ri-arrow-left-s-line"></i>
-                    </div>
-        
-                    <!-- Pagination -->
-                    <div class="swiper-pagination7"></div>
-                </div>
-             </section>
-
-              <!--team section8-->
-            <section class="team-sec8">
-                <div class="card__container swiper">
-                    <h2 class="subheading">Technical <span>Team</span></h2> <!-- Add the subheading here -->
-                    <div class="card__content8">
-                       <div class="swiper-wrapper">
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Fahmin Fayas. A.K.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Ashiq.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Co-Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Thaiseer.jpeg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Nufail.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-        
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Saheer Palampadiyan.JPG" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-                       </div>
-                    </div>
-        
-                    <!-- Navigation buttons -->
-                    <div class="swiper-button-next8">
-                       <i class="ri-arrow-right-s-line"></i>
-                    </div>
-                    
-                    <div class="swiper-button-prev8">
-                       <i class="ri-arrow-left-s-line"></i>
-                    </div>
-        
-                    <!-- Pagination -->
-                    <div class="swiper-pagination8"></div>
-                </div>
-             </section>
-
-              <!--team section9-->
-            <section class="team-sec9">
-                <div class="card__container swiper">
-                    <h2 class="subheading">Technical <span>Team</span></h2> <!-- Add the subheading here -->
-                    <div class="card__content9">
-                       <div class="swiper-wrapper">
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Fahmin Fayas. A.K.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Ashiq.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Co-Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Thaiseer.jpeg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Nufail.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-        
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Saheer Palampadiyan.JPG" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-                       </div>
-                    </div>
-        
-                    <!-- Navigation buttons -->
-                    <div class="swiper-button-next9">
-                       <i class="ri-arrow-right-s-line"></i>
-                    </div>
-                    
-                    <div class="swiper-button-prev9">
-                       <i class="ri-arrow-left-s-line"></i>
-                    </div>
-        
-                    <!-- Pagination -->
-                    <div class="swiper-pagination9"></div>
-                </div>
-             </section>
-
-              <!--team section10-->
-            <section class="team-sec10">
-                <div class="card__container swiper">
-                    <h2 class="subheading">Technical <span>Team</span></h2> <!-- Add the subheading here -->
-                    <div class="card__content10">
-                       <div class="swiper-wrapper">
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Fahmin Fayas. A.K.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Ashiq.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Co-Lead</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Thaiseer.jpeg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-              
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Mohammed Nufail.jpg" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-        
-                          <article class="card__article swiper-slide">
-                            <img src="images/execom/Saheer Palampadiyan.JPG" alt="team">
-              
-                             <div class="card__data">
-                                <h3 class="card__name">Kell Dawx</h3>
-                                <h5>BSC II Year</h5>
-                                <h4>Team Member</h4>
-              
-                                <div class="icons">
-                                    <i class="ri-linkedin-fill"></i>
-                                    <a href="#"><i class="ri-instagram-line"></i></a>
-                                </div>
-                             </div>
-                          </article>
-                       </div>
-                    </div>
-        
-                    <!-- Navigation buttons -->
-                    <div class="swiper-button-next10">
-                       <i class="ri-arrow-right-s-line"></i>
-                    </div>
-                    
-                    <div class="swiper-button-prev10">
-                       <i class="ri-arrow-left-s-line"></i>
-                    </div>
-        
-                    <!-- Pagination -->
-                    <div class="swiper-pagination10"></div>
-                </div>
-             </section>
+                <div class="swiper-pagination10"></div>
+            </div>
         </section>
-        <!--footer start-->
-        <footer>
-            <div class="footerlogo">
-                <img id="fotrlogo" src="images/logo-iedc.jpg" alt="" width="100px">
-                <div class="iconcontainer">
-                    <a href="https://www.facebook.com/profile.php?id=100088136628687&mibextid=ZbWKwL"><img
-                            id="icom-small" src="images/svg/fb.svg" alt=""></a>
-                    <a href="https://instagram.com/iedc.mcas?igshid=ZDdkNTZiNTM="><img id="icom" src="images/svg/ig.svg"
-                            alt=""></a>
-                    <a href="https://www.linkedin.com/company/iedc-mcas/"><img id="icom" src="images/svg/in.svg"
-                            alt=""></a>
-                    <a href="https://youtube.com/@iedcmcas"><img id="icom-small" src="images/svg/yt.svg"
-                            alt=""></a>
+    </section>
+    <!--footer start-->
+    <footer>
+        <div class="footerlogo">
+            <img id="fotrlogo" src="images/logo-iedc.jpg" alt="" width="100px">
+            <div class="iconcontainer">
+                <a href="https://www.facebook.com/profile.php?id=100088136628687&mibextid=ZbWKwL"><img id="icom-small"
+                        src="images/svg/fb.svg" alt=""></a>
+                <a href="https://instagram.com/iedc.mcas?igshid=ZDdkNTZiNTM="><img id="icom" src="images/svg/ig.svg"
+                        alt=""></a>
+                <a href="https://www.linkedin.com/company/iedc-mcas/"><img id="icom" src="images/svg/in.svg" alt=""></a>
+                <a href="https://youtube.com/@iedcmcas"><img id="icom-small" src="images/svg/yt.svg" alt=""></a>
 
-                </div>
             </div>
-            <hr>
-            <div class="footer-content">
-                <p>Malabar College of Advanced Studies<br>
-                    Vengara, P.O O.K.Muri, Malappuram-676 519, Kerala, India.</p>
-                <p>
-                    <center>Copyright &#169; 2023 &#183; IEDC MCAS</center>
-                </p>
-            </div>
-        </footer>
+        </div>
+        <hr>
+        <div class="footer-content">
+            <p>Malabar College of Advanced Studies<br>
+                Vengara, P.O O.K.Muri, Malappuram-676 519, Kerala, India.</p>
+            <p>
+                <center>Copyright &#169; 2023 &#183; IEDC MCAS</center>
+            </p>
+        </div>
+    </footer>
 
 
-        <!--footer over-->
+    <!--footer over-->
 
-        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
 
-        <!--scroll-->
-        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-        <script type="text/javascript">
+    <!--scroll-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
 
-            var btn = $('#button');
+        var btn = $('#button');
 
-            $(window).scroll(function () {
-                if ($(window).scrollTop() > 300) {
-                    btn.addClass('show');
-                } else {
-                    btn.removeClass('show');
-                }
-            });
-
-            btn.on('click', function (e) {
-                e.preventDefault();
-                $('html, body').animate({ scrollTop: 0 }, '300');
-            });
-
-        </script>
-        <script>
-            // Function to show the Execom section and hide the Teams section
-            function showExecomSection() {
-              document.getElementById('execomSection').style.display = 'block';
-              document.getElementById('teamsSection').style.display = 'none';
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
             }
-          
-            // Function to show the Teams section and hide the Execom section
-            function showTeamsSection() {
-              document.getElementById('execomSection').style.display = 'none';
-              document.getElementById('teamsSection').style.display = 'block';
-            }
-        </script>
-         <!--=============== SWIPER JS ===============-->
-        <script src="js/swiper-bundle.min.js"></script>
+        });
 
-         <!--=============== MAIN JS ===============-->
-         <script src="js/main.js"></script>
-          
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+
+    </script>
+    <script>
+        // Function to show the Execom section and hide the Teams section
+        function showExecomSection() {
+            document.getElementById('execomSection').style.display = 'block';
+            document.getElementById('teamsSection').style.display = 'none';
+        }
+
+        // Function to show the Teams section and hide the Execom section
+        function showTeamsSection() {
+            document.getElementById('execomSection').style.display = 'none';
+            document.getElementById('teamsSection').style.display = 'block';
+        }
+    </script>
+    <!--=============== SWIPER JS ===============-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
