@@ -244,6 +244,7 @@ body{
     cursor: pointer;
 }
 
+
 .event .card .content a:hover {
     opacity: 0.8;
     background-color: #535353;
