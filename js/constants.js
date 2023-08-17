@@ -2,7 +2,7 @@
 
 //constants
 
-var bca_point = 6368;
+var bca_point = 6384;
 var electronics_point = 630;
 var multimedia_point = 1015;
 var psychology_point = 290;
@@ -10,7 +10,7 @@ var economics_point = 150;
 var bcom_ca_point = 580;
 var bcom_tt_point = 240;
 var ba_english_point = 1050;
-var bba_point = 890;
+var bba_point = 915;
 
 
 var total_points = bca_point+electronics_point+multimedia_point+psychology_point+economics_point+bcom_ca_point+bcom_tt_point+ba_english_point+bba_point;
