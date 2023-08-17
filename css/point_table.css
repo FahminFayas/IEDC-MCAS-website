@@ -77,13 +77,11 @@ span {
     color: #e6bf24;
 }
 
-.homepageiedc {
-    background: linear-gradient(315deg, #2d3436 0%, #000000 74%);
-}
 
 /*navbar-over*/
 body {
     justify-content: center;
+    background: linear-gradient(315deg, #141717 0%, #000000 74%);
 }
 
 

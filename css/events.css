@@ -74,9 +74,6 @@ nav {
 span {
     color: #e6bf24;
 }
-.homepageiedc {
-    background: linear-gradient(315deg, #2d3436 0%, #000000 74%);
-}
 
 /*navbar-over*/
 
@@ -90,6 +87,7 @@ span {
 
 body{
     justify-content: center;
+    background: linear-gradient(315deg, #131414 0%, #000000 74%);
 }
 
 
@@ -245,6 +243,7 @@ body{
     font-size: 1rem;
     cursor: pointer;
 }
+
 
 .event .card .content a:hover {
     opacity: 0.8;
