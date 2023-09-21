@@ -155,11 +155,11 @@ body {
 }
 
 .point-table-btn {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center; 
     margin-top: 10px;
     margin-bottom: 100px;
-    }
+}
 
 
 #point-content {
