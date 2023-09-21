@@ -15,7 +15,6 @@ var bba_point = 2160;
 
 var total_points = bca_point+electronics_point+multimedia_point+psychology_point+economics_point+bcom_ca_point+bcom_tt_point+ba_english_point+bba_point;
 
-const lastUpdatedDate = "21-09-2023";
 
 // Assigning values
 
