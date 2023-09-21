@@ -2,15 +2,15 @@
 
 //constants
 
-var bca_point = 10454;
-var electronics_point = 2130;
-var multimedia_point = 2815;
-var psychology_point = 640;
-var economics_point = 840;
-var bcom_ca_point = 1930;
-var bcom_tt_point = 840;
-var ba_english_point = 2540;
-var bba_point = 1580;
+var bca_point = 11989;
+var electronics_point = 2400;
+var multimedia_point = 4000;
+var psychology_point = 685;
+var economics_point = 885;
+var bcom_ca_point = 4705;
+var bcom_tt_point = 885;
+var ba_english_point = 3800;
+var bba_point = 2160;
 
 
 var total_points = bca_point+electronics_point+multimedia_point+psychology_point+economics_point+bcom_ca_point+bcom_tt_point+ba_english_point+bba_point;
