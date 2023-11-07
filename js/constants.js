@@ -12,10 +12,11 @@ var bcom_tt_point = 1175;
 var ba_english_point = 6910;
 var bba_point = 2640;
 
+const lastUpdatedDate = "7-11-2023";
 
 var total_points = bca_point+electronics_point+multimedia_point+psychology_point+economics_point+bcom_ca_point+bcom_tt_point+ba_english_point+bba_point;
 
-const lastUpdatedDate = "3-11-2023";
+
 
 // Assigning values
 
