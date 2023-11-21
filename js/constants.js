@@ -2,17 +2,17 @@
 
 //constants
 
-var bca_point = 16529;
-var electronics_point = 3140;
-var multimedia_point = 6250;
-var psychology_point = 995;
-var economics_point = 945;
-var bcom_ca_point = 5785;
-var bcom_tt_point = 1195;
-var ba_english_point = 7020;
-var bba_point = 2660;
+var bca_point = 18529;
+var electronics_point = 4940;
+var multimedia_point = 7800;
+var psychology_point = 1845;
+var economics_point = 1145;
+var bcom_ca_point = 7585;
+var bcom_tt_point = 2045;
+var ba_english_point = 7670;
+var bba_point = 3660;
 
-const lastUpdatedDate = "16-11-2023";
+const lastUpdatedDate = "21-11-2023";
 
 var total_points = bca_point+electronics_point+multimedia_point+psychology_point+economics_point+bcom_ca_point+bcom_tt_point+ba_english_point+bba_point;
 
