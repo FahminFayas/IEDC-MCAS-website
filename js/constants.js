@@ -8,9 +8,9 @@ var bba_point = 7195;
 var economics_point = 1730;
 var multimedia_point = 18610;
 var electronics_point = 10090;
-var psychology_point = 3765;
-var bcom_ca_point = 11745;
-var bcom_tt_point = 4500;
+var psychology_point = 3815;
+var bcom_ca_point = 12275;
+var bcom_tt_point = 4750;
 
 
 const lastUpdatedDate = "31-12-2023";
