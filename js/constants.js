@@ -2,16 +2,16 @@
 
 //constants
 
+
 var bca_point = 26894;
 var ba_english_point = 12250;
 var bba_point = 7570;
 var economics_point = 1855;
 var multimedia_point = 19555;
 var electronics_point = 10615;
-var psychology_point = 3765;
-var bcom_ca_point = 11745;
-var bcom_tt_point = 4500;
-
+var psychology_point = 3815;
+var bcom_ca_point = 12275;
+var bcom_tt_point = 4750;
 
 const lastUpdatedDate = "17-02-2024";
 
