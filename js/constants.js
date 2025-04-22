@@ -13,7 +13,7 @@ var psychology_point = 5715;
 var bcom_ca_point = 18725;
 var bcom_tt_point = 6825;
 
-const lastUpdatedDate = "12-11-2024";
+const lastUpdatedDate = "22-04-2025";
 
 
 var total_points = bca_point+electronics_point+multimedia_point+psychology_point+economics_point+bcom_ca_point+bcom_tt_point+ba_english_point+bba_point;
